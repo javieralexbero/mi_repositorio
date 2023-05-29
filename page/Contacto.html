@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janna Boutique | Tienda de Ropa Online</title>
-    <link rel="stylesheet" href="style/style.css">
+    <title>Janna Boutique | Contactos</title>
+    <link rel="stylesheet" href="../style/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
@@ -26,7 +26,7 @@
 
        
         <div id="Encabezado">
-            <img src="image/logo.jpeg" alt="Jannabountique" class="logoprincipal" >
+            <img src="../image/logo.jpeg" alt="Jannabountique" class="logoprincipal" >
             
             <nav>
                 <h1>
@@ -36,11 +36,11 @@
                 
         <main>
             <nav id="menulinks">
-                <a href="index.html">Inicio |</a>
-                <a href="page/Hombre.html">Hombre |</a>
-                <a href="page/Mujer.html">Mujer |</a>
-                <a href="page/Contacto.html">Contactos | </a>
-                <a href="page/Quienes_somos.html"> Quienes somos</a>
+                <a href="../index.html">Inicio |</a>
+                <a href="./Hombre.html">Hombre |</a>
+                <a href="./Mujer.html">Mujer |</a>
+                <a href="./Contacto.html">Contactos | </a>
+                <a href="./Quienes_somos.html"> Quienes somos</a>
             </nav>
         </main>    
             
@@ -59,18 +59,18 @@
 
 
 
- <section id="info_envios_pago_seguridad">
-    <nav>
-        <img src="image/image_envio.png" alt="envios_jannaboutique">
-        <h5> 
+<section>
+    <nav id="info_envios_pago_seguridad">
+        <img src="../image/image_envio.png" alt="envios_jannaboutique">
+        <h5 class="envios"> 
             ENVÍOS A TODO EL PAÍS.
         </h5> 
-        <img src="image/image_pago.jpg" alt="pagos_janaboutique">
-        <h5>
+        <img src="../image/image_pago.jpg" alt="pagos_janaboutique">
+        <h5 class="pagos">
             PAGÁ COMO QUIERAS. 
         </h5>
-        <img src="image/image_seguridad.png" alt="seguridad_jannaboutique">
-        <h5>
+        <img src="../image/image_seguridad.png" alt="seguridad_jannaboutique">
+        <h5 class="seguridad">
             COMPRÁ CON SEGURIDAD. 
         </h5>
     </nav>
@@ -85,58 +85,34 @@
     <br>
     <br>
 </section>
-    
 
-    
-    
-<nav id="Destacados">
-    <h3 class="titulodescatado">
-                Destacados
-    </h3>
-</nav>
+<section id="Formulario">
+    <nav>
+        <form action="form.php" method="post">
+            <label for="">Nombre y Apellido</label>
+            <input type="text" name="Nombre" id="Nombre"><br>
+            <br><label for="">Correo Electronico</label>
+            <input type="email" name="email" id="email"><br>
+            <br><label for="">Telefono(Opcional)</label>
+            <input type="number" name="Telefono" id="Telefono"><br>
+            <p>Comentario</p> <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><input type="submit" value="Enviar">
+        </form>
+    </nav>
+</section>
+
 <section>
     <br>
     <br>
     <br>
     <br>
-    <br>
-</section>
- <section id="catalogo">
-    <nav >
-        <img src="image/buzo_destacados1.jpg" alt="buzo_destacados1">
-        <h3>Sweater Cuzco</h3>
-        <p>8740,00 ARS</p>
-        <img src="image/buzotejido_destacados2.jpg" alt="#">
-        <h3>Polera Austral</h3>
-        <p>5000,00 ARS</p>
-        <img src="image/Sweater Floricienta01.jpg" alt="#">
-        <h3>Sweater Floricienta</h3>
-        <p>17700,00 ARS</p>
-
-    </nav>
-    
-
- </section>
- 
- 
- 
- <section>
-    <br>
-    <br>
-    <br>
-    <br>
 </section>
 
- 
-
-
-
-
-
-<footer>
+ <footer>
     <br>
     <h6>COPYRIGHT JANNA BOUTIQUE TODOS LOS DERECHOS RESERVADOS</h6>
     <br>
  </footer>
+</body
 </body
 </html>
