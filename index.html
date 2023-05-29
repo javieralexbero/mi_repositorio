@@ -1,142 +1,321 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janna Boutique | Tienda de Ropa Online</title>
-    <link rel="stylesheet" href="style/style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
-
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Janna boutique | Tienda Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
 </head>
-
-<body>
+  <body>
     <header>
+        <!-- Barra de navegacion -->
         
-        <nav id="cuotasSinteres"> 
-            <br><h5>
-                3 cuotas sin interes / 20%OFF Efectivo y transferencia
-            </h5><br>
-            
-            
-        </nav>
-     <nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="./image/logo_jn.png" alt="Janna_boutique" width="60" height="40">
+                      </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./page/nuevo.html">Nuevo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/invierno.html">Invierno/Otoño</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/verano.html">Verano</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/oferta.html">Ofertas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="./page/Quienes_somos.html">Quienes somos</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <div class="whatsapp">
+                <a class="navbar-brand" href="https://wa.me/qr/ACW67YXZSXCSI1">
+                    <img src="./image/whatsapp.png" alt="whatsapp_jannaboutique" width="80" height="60">
+                  </a>
+              </div>
+              <div class="instagram">
+                <a class="navbar-brand" href="https://www.instagram.com/jannaboutique25/">
+                    <img src="./image/instagram-png.png" alt="instagram_jannaboutique" width="80" height="60">
+                  </a>
+              </div>
+              
+          
+          <!-- Carrusel -->
 
-       
-        <div id="Encabezado">
-            <img src="image/logo.jpeg" alt="Jannabountique" class="logoprincipal" >
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./image/imagen_carrusel3.jpg" class="d-block w-100 " alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/imagen_carrusel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./image/imagen_carrusel3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <section class="Encabezado">
+            <h1>Arma y Renueva Tu Estilo</h1>
+          </section>
+          
+    
+    <!-- Contenido de la paguina -->
+    
+          <main>
+        <section class="Datosdecompras">
             
-            <nav>
-                <h1>
-                    Arma y Renueva Tu Estilo
-                </h1>
-            </nav>
+                <div class="envios">
+                    
+                    <img src="./image/image_envio.png" class="imagen_envios" alt="">
+                    <h4>ENVIAMOS TU COMPRA </h4>
+                    <p>
+                    Entregas a todo el pais 
+                    </p>    
+                </div>
+                <div class="pagos">
+                    <img src="./image/image_pago.jpg" class="imagen_pagos" alt="">
+                    <h4>PAGÁ COMO QUIERAS</h4>
+                    <p>
+                    Tarjetas de credito o Efectivo   
+                    </p>    
+                </div>
+                <div class="seguridad">
+                    <img src="./image/image_seguridad.png" class="imagen_seguridad" alt="">
+                <h4>COMPRA CON SEGURIDAD</h4>
+                <p>
+                Tus datos siempre protegidos
+                </p>
+                </div>
                 
-        <main>
-            <nav id="menulinks">
-                <a href="index.html">Inicio |</a>
-                <a href="page/Hombre.html">Hombre |</a>
-                <a href="page/Mujer.html">Mujer |</a>
-                <a href="page/Contacto.html">Contactos | </a>
-                <a href="page/Quienes_somos.html"> Quienes somos</a>
-            </nav>
-        </main>    
+       
+            </section>
+
+    <!-- Productos destacados -->
+        <section class="Titulodestacados">
+            <div>
+                <h2>
+                    Destacados
+                </h2>
+            </div>
+        </section>
+
+        <section class="Productos_paguina_principal">
+            <div class="producto_destacado1">
+                <img src="./image/imagen_destacado1.jpg" alt="">
+                <h6>
+                    Pantalones retro vintage
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+                     
+                
+
+            </div>
             
+            <div class="producto_destacado2" >
+                <img src="./image/buzo_destacados1.jpg" alt="">
+                <h6>
+                    Sweater Alpino
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+            <div class="producto_destacado3">
+                <img src="image/imagen_destacado4.jpg" alt="">
+                <h6>
+                    LANILLA
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+            <div class="producto_destacado4">
+                <img src="./image/imagen_destacado7.jpg" alt="">
+                <h6>
+                    Campera Pehuén
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+            <div class="producto_destacado5">
+                <img src="./image/imagen_destacado3.jpg" alt="">
+                <h6>
+                    Chaleco Ona
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+            <div class="producto_destacado6">
+                <img src="./image/imagen_destacado5.jpg" alt="">
+                <h6>
+                    Polera Austral 
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+            <div class="producto_destacado7">
+                <img src="./image/imagen_destacado6.jpg" alt="">
+                <h6>
+                    Sweater Uco
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+            <div class="producto_destacado8">
+                <img src="./image/imagen_destacado8.jpg" alt="">
+                <h6>
+                    Sweater con flores pequeñas
+                </h6>
+                <p>
+                    $1000
+                </p>
+                <p>
+                  3 Cuotas Sin interes de  
+                </p>
+                <strong>
+                    $3333,33
+                </strong>
+            </div>
+        </section>
 
-        </div>
-    </nav> 
-    </header>
-
-<div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</div>
-
-
-
- <section id="info_envios_pago_seguridad">
-    <nav>
-        <img src="image/image_envio.png" alt="envios_jannaboutique">
-        <h5> 
-            ENVÍOS A TODO EL PAÍS.
-        </h5> 
-        <img src="image/image_pago.jpg" alt="pagos_janaboutique">
-        <h5>
-            PAGÁ COMO QUIERAS. 
-        </h5>
-        <img src="image/image_seguridad.png" alt="seguridad_jannaboutique">
-        <h5>
-            COMPRÁ CON SEGURIDAD. 
-        </h5>
-    </nav>
- </section>
-    
-<section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</section>
-    
-
-    
-    
-<nav id="Destacados">
-    <h3 class="titulodescatado">
-                Destacados
-    </h3>
-</nav>
-<section>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-</section>
- <section id="catalogo">
-    <nav >
-        <img src="image/buzo_destacados1.jpg" alt="buzo_destacados1">
-        <h3>Sweater Cuzco</h3>
-        <p>8740,00 ARS</p>
-        <img src="image/buzotejido_destacados2.jpg" alt="#">
-        <h3>Polera Austral</h3>
-        <p>5000,00 ARS</p>
-        <img src="image/Sweater Floricienta01.jpg" alt="#">
-        <h3>Sweater Floricienta</h3>
-        <p>17700,00 ARS</p>
-
-    </nav>
-    
-
- </section>
+    </main>
  
- 
- 
- <section>
-    <br>
-    <br>
-    <br>
-    <br>
-</section>
+<!-- Parte inferior -->
 
- 
+    <footer>
+        <section class="parte_baja">
+            <div class="navegacion">
+                <h5>
+                    Navegacion
+                </h5>
+                <a href="index.html">Inicio</a>
+                <a href="./page/nuevo.html">Nuevo</a>
+                <a href="./page/invierno.html">Invierno/Otoño</a>
+                <a href="./page/verano.html">Verano</a>
+                <a href="./page/oferta.html">Ofertas</a>
+                <a href="./page/Quienes_somos.html">Quienes somos</a>  
+            </div>
+            <div class="medios_pagos">
+                <h5>
+                    Medios Pagos
+                </h5>
+                <img src="./image/metodo_pago.png" alt="">
+            </div>
+            <div class="contactos">
+                <h5>
+                    Contacto
+                </h5>
+                <a href="#">whatsapp</a>
+                <p>
+                    jannaboutique.25@gmail.com
+                </p>
+                    
+                
+            </div>
+        </section>
+
+        <section class="derechos">
+          <h6>
+            Janna boutique, Todos los Derechos Reservados
+          </h6>
+        </section>
+    </footer>
 
 
 
+          
+</header>
 
-
-<footer>
-    <br>
-    <h6>COPYRIGHT JANNA BOUTIQUE TODOS LOS DERECHOS RESERVADOS</h6>
-    <br>
- </footer>
-</body
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
 </html>
