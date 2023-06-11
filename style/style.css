@@ -1,330 +1,362 @@
-/* index*/
-
-.container-fluid{
-    
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    margin-left: 10px;
-    display: flex;
-    
-    
-    
-    
-    
-    
-}
-#carouselExampleCaptions{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    flex-wrap: wrap;
-}
-#navbarNav{
-    margin-left: 100px;
-    justify-content: right;
-    flex-wrap: wrap;
-
-}
-h1{
-    
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3rem;
-    border-top: black;
-    text-align: center;
-    background-color: rgb(248, 248, 248);
-    padding: 20px;
-    flex-wrap: wrap;
-}
-.Datosdecompras{
-    justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-}
-.whatsapp{
-    position: fixed;
-    right: 0;
-    bottom: 20px;
-    z-index: 1;
-    
-}
-.instagram{
-    
-        position: fixed;
-        right: 0;
-        bottom: 85px;
-        z-index: 1;
-}
-.envios{
-    margin: 100px;
-    justify-content: center;
-    
-    
-    
-    
-}
-.imagen_envios{
-    display: flex;
-    width: 50px;
-    height: 50px;
-    
-    
-}
-.pagos{
-    
-    justify-content: center;
-    margin: 100px;
-    
-}
-.imagen_pagos{
-    
-    display: flex;
-    width: 50px;
-    height: 50px;
-    
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
-.seguridad{
-    
-    justify-content: center;
-    margin: 100px;
+header .imagen_arriba_nuevo img {
+  width: 100%;
+  height: 750px;
 }
-.imagen_seguridad{
-    display: flex;
-    width: 50px;
-    height: 50px;
+header .mensaje_cuotas {
+  background-color: black;
+  color: grey;
+  font-weight: 300;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding-top: 5px;
 }
-.Titulodestacados{
-text-align: center;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-border-bottom: 1px solid black;
-
+header .barra1 {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  border-bottom: 1px solid rgba(206, 206, 206, 0.637);
 }
-
-.Productos_paguina_principal img{
-    width: 260px;
-    height: 400px;
-    flex-wrap: wrap;
-    border-bottom: 1px solid black;
-    
-   
+header .barra1 div {
+  display: grid;
+  flex-wrap: wrap;
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  color: grey;
+  font-size: 12px;
 }
-.Productos_paguina_principal{
-    
-    flex-wrap: wrap;
-    display: flex;
-    margin: 200px;
-    text-align: center;
-    justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
+header .barra1 div ul {
+  text-decoration: none;
+  flex-wrap: wrap;
+  display: flex;
 }
-.producto_destacado1{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
-
+header .barra1 div ul a {
+  text-decoration: none;
+  color: gray;
+  display: grid;
+  flex-wrap: wrap;
+  margin-left: 10px;
 }
-.producto_destacado2{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .barra1 div ul a:hover {
+  color: black;
+  cursor: pointer;
 }
-.producto_destacado3{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .barra1 div ul .crear_cuenta {
+  border-right: 1px solid grey;
+  flex-wrap: wrap;
+  padding-right: 10px;
 }
-.producto_destacado4{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .barra1 div p {
+  margin-right: 10px;
+  display: flex;
+  margin-right: 200px;
+  margin-left: 20px;
+  padding-right: 200px;
 }
-.producto_destacado5{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .navbar {
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgba(206, 206, 206, 0.637);
+  display: flex;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  padding: 30px;
+  border-bottom: 1px solid rgba(206, 206, 206, 0.637);
 }
-.producto_destacado6{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .navbar .container-fluid {
+  margin-left: 200px;
 }
-.producto_destacado7{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .navbar .navbar-nav {
+  margin-left: 90px;
+  font-size: 1.1rem;
 }
-.producto_destacado8{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+header .whatsapp {
+  position: fixed;
+  right: 0;
+  bottom: 20px;
+  z-index: 1;
 }
-
-.parte_baja{
-    justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    text-decoration: none;
-    border-top: 1px solid rgb(209, 209, 209) ;
+header .Encabezado {
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  border-bottom: 2px solid rgba(206, 206, 206, 0.637);
 }
-.navegacion{
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-right: 100px;
-    text-align: center;
-    
-}
-.navegacion a{
-    display: flex;
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-}
-.medios_pagos{
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-right: 100px;
-    text-align: center;
-
-}
-.contactos{
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-right: 100px;
-    text-align: center;
-}
-.contactos a{
-    display: flex;
-    text-decoration: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: green;
-}
-.derechos{
-    background-color: black;
-    color: white;
-    text-align: center;
-    flex-wrap: wrap;
-    padding: 10px;
-
-}
-/*Quienes somos */
-
-.h1_quienes{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3rem;
-    
-    text-align: center;
-    padding: 200px;
-    border-top: 1px solid rgb(209, 209, 209);
-    border-bottom: 1px solid rgb(209, 209, 209);
-    z-index: 1;
-}
-.imagen_encabezado_quienes{
-   text-align: center;
-    
+header .Encabezado h1 {
+  font-size: 50px;
 }
 
-.Contenido_nosotros{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 100px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
-    
-
-    
+main .Datosdecompras {
+  justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  color: grey;
+  margin-top: 160px;
+  font-size: 17px;
 }
-.Contenido_nosotros img{
-    width: 500px;
-    height: 600px;
-    justify-content: center;
-    border: 3px solid black;
-    flex-wrap: wrap;
-    
-    
+main .Datosdecompras h4 p {
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-/* Invierno*/
-
-.Productos_paguina_invierno img{
-    width: 260px;
-    height: 400px;
-    flex-wrap: wrap;
-    border-bottom: 1px solid black;
-    
-    
-   
+main .Datosdecompras .envios {
+  margin: 20px;
 }
-.Productos_paguina_invierno{
-    
-    flex-wrap: wrap;
-    display: flex;
-    margin: 200px;
-    text-align: center;
-    justify-content: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
-    
+main .Datosdecompras .imagen_envios {
+  display: flex;
+  width: 30px;
+  height: 30px;
 }
-.producto_invierno1{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
-
+main .Datosdecompras .pagos {
+  margin: 20px;
 }
-.producto_invierno2{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Datosdecompras .imagen_pagos {
+  display: flex;
+  width: 30px;
+  height: 30px;
 }
-.producto_invierno3{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Datosdecompras .seguridad {
+  margin: 20px;
 }
-.producto_invierno4{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Datosdecompras .imagen_seguridad {
+  display: flex;
+  width: 30px;
+  height: 30px;
 }
-.producto_invierno5{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Titulodestacados {
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
 }
-.producto_invierno6{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Productos_paguina_principal {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 150px;
+  text-align: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
 }
-.producto_invierno7{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Productos_paguina_principal img {
+  width: 300px;
+  height: 400px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
 }
-.producto_invierno8{
-    margin: 20px;
-    background-color: rgb(243, 242, 242);
-    border-bottom: 2px solid rgb(209, 209, 209);
+main .Productos_paguina_principal .producto_destacado1 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado2 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado3 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado4 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado5 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado6 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado7 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_principal .producto_destacado8 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno {
+  flex-wrap: wrap;
+  display: flex;
+  margin: 200px;
+  text-align: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 17px;
+}
+main .Productos_paguina_invierno img {
+  width: 300px;
+  height: 400px;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: 1px solid black;
+}
+main .Productos_paguina_invierno .producto_invierno1 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno2 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno3 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno4 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno5 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno6 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno7 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .Productos_paguina_invierno .producto_invierno8 {
+  margin: 20px;
+  background-color: rgb(243, 242, 242);
+  border-bottom: 2px solid rgb(209, 209, 209);
+  border-left: 2px solid rgb(209, 209, 209);
+}
+main .imagen_de_nosotros {
+  text-align: center;
+}
+main .imagen_de_nosotros img {
+  width: 60%;
+  height: 600px;
+  border: 2px solid rgba(206, 206, 206, 0.637);
+}
+main .imagen_de_nosotros p {
+  flex-wrap: wrap;
+  font-size: 17px;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 50px;
 }
 
-/* nuevo */
+footer .derechos {
+  color: white;
+  background-color: black;
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 6px;
+}
+footer .parte_baja {
+  padding-bottom: 60px;
+  background-color: rgba(206, 206, 206, 0.637);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(206, 206, 206, 0.637);
+}
+footer .parte_baja img {
+  width: 50px;
+}
+footer .parte_baja .navegacion {
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+footer .parte_baja .navegacion a {
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin: 5px;
+}
+footer .parte_baja .navegacion a:hover {
+  color: black;
+  cursor: pointer;
+}
+footer .parte_baja .medios_pagos {
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+footer .parte_baja .contactos {
+  font-family: "DM Sans", sans-serif;
+  font-family: "NTR", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+footer .parte_baja .contactos a {
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+footer .parte_baja .contactos a:hover {
+  color: green;
+  cursor: pointer;
+}
 
-
-
-
-
-
-/* */
-
-
-
-
+/*# sourceMappingURL=style.css.map */
