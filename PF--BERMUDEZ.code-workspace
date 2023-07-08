@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../OneDrive/Escritorio/programas javi"
+		},
+		{
+			"path": "../OneDrive/Escritorio/proyecto_final"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../mi-repositorio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "proyecto_final"
+	}
+}
